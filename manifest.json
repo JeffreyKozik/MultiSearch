@@ -1,0 +1,15 @@
+{
+    "name": "Multitab Search - irslogics",
+    "description": "Search multiple irslogics search bars at once.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "https://*.irslogics.com/",
+        "http://*.irslogics.com/",
+        "tabs",
+        "storage"
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
